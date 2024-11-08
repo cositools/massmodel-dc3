@@ -1,2 +1,2 @@
-# massmodel-dc3
-Mass model for data challenge 3
+# massmodel-cosi-smex-detailed
+The detailed COSI SMEX mass model
