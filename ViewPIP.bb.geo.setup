@@ -1,0 +1,53 @@
+SurroundingSphere 80  0.0  0.0  -45.0  80.0
+#ShowSurroundingSphere  true
+
+
+Include COSISMEX.mat
+
+Include COSISMEX.PIP.bb.v2.geo
+Include COSISMEX.mat
+Include COSISMEX.Spacecraft.mat
+# Required include files
+Include COSISMEX.GlobalDimensions.bb.geo
+Include COSISMEX.Ge.geo
+Include COSISMEX.Ge.SimsOnly.det
+Include COSISMEX.Cryostat.geo
+Include COSISMEX.ACS.geo
+Include COSISMEX.BGO.det
+
+
+# Volume definitions:
+
+!-------------------------------------------------------------------------
+
+
+!******************************
+!******************************
+!***   Mother Volume VAC0   ***
+!******************************
+!******************************
+
+Volume WorldVolume
+WorldVolume.Visibility 0
+WorldVolume.Material vacuum
+WorldVolume.Shape TUBS 0 300 400 0 360
+WorldVolume.Mother 0
+
+
+PIPbody.Mother WorldVolume
+PIPbody.Position 0. 0. 0.0
+PIPbody.Scale 1.0
+#PIPbody.Mother WorldVolume
+
+
+#ShieldedTelescope.Mother WorldVolume
+#ShieldedTelescope.Position 0.0 0.0 0.0
+# Use the below position when the shildedTelescope Mother volume is not included in the PIPbody mother volume
+#ShieldedTelescope.Rotation 0.0 0.0 90.0
+#ShieldedTelescope.Position 0.0 {PIP_TRD2_height/2-21.7} {ShieldedHeight+BGOBotZ+.71}
+
+#20.7
+~                                                                                                                                             
+~                                                                                                                                             
+~                                                                                                                                             
+~                                       

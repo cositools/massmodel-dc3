@@ -1,0 +1,107 @@
+//------------------------------------------------------------
+// Detector information:
+
+
+Strip3D               D1
+
+D1.SensitiveVolume      D1_GeWafer
+D1.DetectorVolume       D1_GeWafer
+
+
+D1.Offset               0.32 0.32
+#D1.StripNumber          1024 1024
+#D1.StripNumber          128 128  
+D1.StripNumber            64  64
+#D1.StripNumber           96 96
+
+# ASIC
+#D1.EnergyResolution   Gauss     0.0     0.0    { 2.52 / 2.34 }
+#D1.EnergyResolution   Gauss    59.6    59.6    { 2.52 / 2.34 }
+#D1.EnergyResolution   Gauss    81.0    81.0    { 3.28 / 2.34 }
+#D1.EnergyResolution   Gauss   303     303      { 3.59 / 2.34 }
+#D1.EnergyResolution   Gauss   383     383      { 4.07 / 2.34 }
+#D1.EnergyResolution   Gauss   511     511      { 4.7 / 2.34 }
+#D1.EnergyResolution   Gauss  1157    1157      { 5.3 / 2.34 }
+#D1.EnergyResolution   Gauss  1809    1809      { 5.9 / 2.34 }
+
+# COSI
+D1.EnergyResolution   Gauss     0.0     0.0    1.04
+D1.EnergyResolution   Gauss    100.0    100.0  1.04
+D1.EnergyResolution   Gauss    300.0    300.0  1.10
+D1.EnergyResolution   Gauss   1000.0   1000.0  1.32
+D1.EnergyResolution   Gauss   3000.0   3000.0  1.94
+D1.EnergyResolution   Gauss  10000.0  10000.0  4.14
+
+
+# Both
+D1.DepthResolutionThreshold 24.0     
+D1.DepthResolution      0.0  { 0.05 / 2.35 }     
+D1.DepthResolution     25.0  { 0.05 / 2.35 }     
+D1.DepthResolution   5000.0  { 0.05 / 2.35 }     
+
+# Both
+D1.GuardringTriggerThreshold   25.0
+D1.GuardringEnergyResolution  0.0  1.5
+D1.GuardringEnergyResolution  100.0  1.5
+
+# ASIC
+D1.TriggerThreshold     13.
+D1.NoiseThresholdEqualsTriggerThreshold  True
+
+#D1.ReadOutMode  AllChannelsAboveTriggerTreshold
+#D1.ReadOutMode  AllChannelsAboveNoiseThreshold 
+#D1.ReadOuMode    AllChannelsAboveTriggerTresholdPlusSurrounding 1
+#D1.ReadOutMode  AllChannelsAboveNoiseThresholdPlusSurrounding 1 
+
+
+# COSI
+#D1.TriggerThreshold     33.0 5.0
+#D1.NoiseThreshold 10
+#D1.NoiseThreshold 19 
+
+# GRX
+#D1.TriggerThreshold  24
+#D1.NoiseThreshold 7
+
+#ASIC
+#D1.TriggerThreshold  20
+#D1.NoiseThreshold 7
+
+
+
+
+#D1.EnergyPerElectron 0.2
+##D1.DriftConstant     0.0258  
+##D1.DriftConstant     0.013  
+#D1.DriftConstant     0.00645
+##D1.DriftConstant     0.00466
+
+# Jarred scaled to 1500 V
+#D1.DriftConstant  0.007
+
+#Scintillator     BGO_Coinc_bottom
+#BGO_Coinc_bottom.DetectorVolume     BGObottomACTIVE
+#BGO_Coinc_bottom.SensitiveVolume    BGObottomACTIVE
+#BGO_Coinc_bottom.TriggerThreshold   80.0
+#BGO_Coinc_bottom.EnergyResolution   Gauss    0.0    0.0   10.0
+#BGO_Coinc_bottom.EnergyResolution   Gauss  100.0  100.0   10.0
+#BGO_Coinc_bottom.NoiseThresholdEqualsTriggerThreshold true
+
+#Scintillator     BGO_Coinc_sideX
+#BGO_Coinc_sideX.DetectorVolume     BGOsideX_ACTIVE
+#BGO_Coinc_sideX.SensitiveVolume    BGOsideX_ACTIVE
+#BGO_Coinc_sideX.TriggerThreshold   80.0
+#BGO_Coinc_sideX.EnergyResolution   Gauss    0.0    0.0   10.0
+#BGO_Coinc_sideX.EnergyResolution   Gauss  100.0  100.0   10.0
+#BGO_Coinc_sideX.NoiseThresholdEqualsTriggerThreshold true
+
+
+#Scintillator     BGO_Coinc_sideY
+#BGO_Coinc_sideY.DetectorVolume     BGOsideY_ACTIVE
+#BGO_Coinc_sideY.SensitiveVolume    BGOsideY_ACTIVE
+#BGO_Coinc_sideY.TriggerThreshold   80.0
+#BGO_Coinc_sideY.EnergyResolution   Gauss    0.0    0.0   10.0
+#BGO_Coinc_sideY.EnergyResolution   Gauss  100.0  100.0   10.0
+#BGO_Coinc_sideY.NoiseThresholdEqualsTriggerThreshold true
+
+

@@ -1,0 +1,26 @@
+# An example run for Cosima
+# It refers to the example on how to determine energy, angular resolution, effectiove area and efficiency in th Mimrec manual;
+
+
+# Global parameters:
+Version               1
+Geometry              COSISMEX.sim.geo.setup
+
+# Physics list
+PhysicsListEM                        LivermorePol
+
+# Output formats
+StoreSimulationInfo                  no
+StoreScientific                      no 3
+
+# Run parameters:
+Run EffectiveArea
+EffectiveArea.FileName                      IsoTest_2MeV_noi_fixed_3
+EffectiveArea.NTriggers                     10000
+
+EffectiveArea.Source EffectiveArea_FirstSource
+EffectiveArea_FirstSource.ParticleType      1
+EffectiveArea_FirstSource.Beam              Isotropic  
+EffectiveArea_FirstSource.Spectrum          Mono  2000
+EffectiveArea_FirstSource.Flux              1000.0
+

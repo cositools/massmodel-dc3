@@ -1,0 +1,40 @@
+
+Name COSI-SMEX 
+Version 7
+
+
+# You have to correct this surounding sphere:
+SurroundingSphere 80  0.0  0.0  -45.0  80.0
+#ShowSurroundingSphere  true
+
+
+Include COSISMEX.mat
+
+Include COSISMEX.Spacecraft.geo
+Include COSISMEX.Spacecraft.mat
+
+
+
+# Volume definitions:
+
+!-------------------------------------------------------------------------
+
+
+!******************************
+!******************************
+!***   Mother Volume VAC0   ***
+!******************************
+!******************************
+
+Volume WorldVolume
+WorldVolume.Visibility 0
+WorldVolume.Material vacuum
+WorldVolume.Shape TUBS 0 300 400 0 360
+WorldVolume.Mother 0
+
+SCbody.Position 0. 0. 0.0
+SCbody.Scale 1.0
+SCbody.Mother WorldVolume
+
+
+

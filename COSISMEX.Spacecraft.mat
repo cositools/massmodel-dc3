@@ -1,0 +1,159 @@
+//******************************************************************************
+// ACTmodSCMaterials.geo    MEGALib materials definition file for ACTmodel
+//                          spacecraft components.
+//
+// 0.0.3  RMK, LANL, AUG-2004:  Increased mass of hydrazene to match IMDC.
+// 0.0.3  RMK, LANL, AUG-2004:  Mods to support material densities.
+// 0.0.2  RMK, LANL, JUL-2004:  Broke out in separate file for SC materials.
+// 0.0.1  ASH, LANL, JUN-2004:  First version.
+//******************************************************************************
+//
+
+// This file has to be included in setup.geo file via:
+// Include ACTmodSCMaterials.geo
+
+AbsorptionFileDirectory ./absorptions
+
+Material SC_Vacuum                          
+SC_Vacuum.Density                  1E-16                
+SC_Vacuum.Component                H 1                         
+
+//80% Al, 10% Steel, 10% Cu
+Material SC_Al80St10Cu10_Dens281
+SC_Al80St10Cu10_Dens281.Density	2.81
+SC_Al80St10Cu10_Dens281.ComponentByMass	Mg  0.020000  //Mg
+SC_Al80St10Cu10_Dens281.ComponentByMass	Al  0.720000  //Al
+SC_Al80St10Cu10_Dens281.ComponentByMass	Si  0.001160  //Si
+SC_Al80St10Cu10_Dens281.ComponentByMass	Ti  0.000080  //Ti
+SC_Al80St10Cu10_Dens281.ComponentByMass	Cr  0.019840  //Cr
+SC_Al80St10Cu10_Dens281.ComponentByMass	Mn  0.001160  //Mn
+SC_Al80St10Cu10_Dens281.ComponentByMass	Fe  0.070005  //Fe
+SC_Al80St10Cu10_Dens281.ComponentByMass	Zn  0.044800  //Zn
+SC_Al80St10Cu10_Dens281.ComponentByMass Cu  0.112800  //Cu
+SC_Al80St10Cu10_Dens281.ComponentByMass	S  0.000030  //S
+SC_Al80St10Cu10_Dens281.ComponentByMass	P  0.000045  //P
+SC_Al80St10Cu10_Dens281.ComponentByMass	Ni  0.010000  //Ni
+SC_Al80St10Cu10_Dens281.ComponentByMass	C   0.00008   //C
+
+//80% Al, 10% Steel, 10% Cu
+Material SC_Al80St10Cu10_Dens033
+SC_Al80St10Cu10_Dens033.Density	0.334
+SC_Al80St10Cu10_Dens033.ComponentByMass	Mg  0.020000  //Mg
+SC_Al80St10Cu10_Dens033.ComponentByMass	Al  0.720000  //Al
+SC_Al80St10Cu10_Dens033.ComponentByMass	Si  0.001160  //Si
+SC_Al80St10Cu10_Dens033.ComponentByMass	Ti  0.000080  //Ti
+SC_Al80St10Cu10_Dens033.ComponentByMass	Cr  0.019840  //Cr
+SC_Al80St10Cu10_Dens033.ComponentByMass	Mn  0.001160  //Mn
+SC_Al80St10Cu10_Dens033.ComponentByMass	Fe  0.070005  //Fe
+SC_Al80St10Cu10_Dens033.ComponentByMass	Zn  0.044800  //Zn
+SC_Al80St10Cu10_Dens033.ComponentByMass Cu  0.112800  //Cu
+SC_Al80St10Cu10_Dens033.ComponentByMass	S  0.000030  //S
+SC_Al80St10Cu10_Dens033.ComponentByMass	P  0.000045  //P
+SC_Al80St10Cu10_Dens033.ComponentByMass	Ni  0.010000  //Ni
+SC_Al80St10Cu10_Dens033.ComponentByMass	C   0.00008   //C
+
+//80% Al, 10% Steel, 10% Cu
+Material SC_Al80St10Cu10_Dens400
+SC_Al80St10Cu10_Dens400.Density	4.00
+SC_Al80St10Cu10_Dens400.ComponentByMass	Mg  0.020000  //Mg
+SC_Al80St10Cu10_Dens400.ComponentByMass	Al  0.720000  //Al
+SC_Al80St10Cu10_Dens400.ComponentByMass	Si  0.001160  //Si
+SC_Al80St10Cu10_Dens400.ComponentByMass	Ti  0.000080  //Ti
+SC_Al80St10Cu10_Dens400.ComponentByMass	Cr  0.019840  //Cr
+SC_Al80St10Cu10_Dens400.ComponentByMass	Mn  0.001160  //Mn
+SC_Al80St10Cu10_Dens400.ComponentByMass	Fe  0.070005  //Fe
+SC_Al80St10Cu10_Dens400.ComponentByMass	Zn  0.044800  //Zn
+SC_Al80St10Cu10_Dens400.ComponentByMass Cu  0.112800  //Cu
+SC_Al80St10Cu10_Dens400.ComponentByMass S  0.000030  //S
+SC_Al80St10Cu10_Dens400.ComponentByMass P  0.000045  //P
+SC_Al80St10Cu10_Dens400.ComponentByMass Ni  0.010000  //Ni
+SC_Al80St10Cu10_Dens400.ComponentByMass	C   0.00008   //C
+
+//70% Al, 10% Steel, 10% Cu, 10% Ti
+Material SC_Al70St10Cu10Ti10
+SC_Al70St10Cu10Ti10.Density	3.0
+SC_Al70St10Cu10Ti10.ComponentByMass	Mg  0.01751  //Mg
+SC_Al70St10Cu10Ti10.ComponentByMass	Al  0.63548  //Al
+SC_Al70St10Cu10Ti10.ComponentByMass	Si  0.00114  //Si
+SC_Al70St10Cu10Ti10.ComponentByMass	Ti  0.08969  //Ti
+SC_Al70St10Cu10Ti10.ComponentByMass	Cr  0.01962  //Cr
+SC_Al70St10Cu10Ti10.ComponentByMass	Mn  0.00114  //Mn
+SC_Al70St10Cu10Ti10.ComponentByMass	Fe  0.07054  //Fe
+SC_Al70St10Cu10Ti10.ComponentByMass	Cu  0.11128  //Cu
+SC_Al70St10Cu10Ti10.ComponentByMass	Zn  0.03923  //Zn
+SC_Al70St10Cu10Ti10.ComponentByMass	S  0.00003  //S
+SC_Al70St10Cu10Ti10.ComponentByMass	P  0.00005  //P
+SC_Al70St10Cu10Ti10.ComponentByMass	Ni  0.01001  //Ni
+SC_Al70St10Cu10Ti10.ComponentByMass	O   0.00020  //O
+SC_Al70St10Cu10Ti10.ComponentByMass	V  0.00400  //V
+SC_Al70St10Cu10Ti10.ComponentByMass	C   0.00008  //C
+
+//80% G10, 10% Steel, 10% Al
+Material SC_G1080St10Al10
+SC_G1080St10Al10.Density	  2.2
+SC_G1080St10Al10.ComponentByMass  Al 0.09001  //Al
+SC_G1080St10Al10.ComponentByMass  C  0.29075  //C
+SC_G1080St10Al10.ComponentByMass  Cr 0.01823  //Cr
+SC_G1080St10Al10.ComponentByMass  Fe 0.06987  //Fe
+SC_G1080St10Al10.ComponentByMass  Mn 0.00102  //Mn
+SC_G1080St10Al10.ComponentByMass  Ni 0.01000  //Ni
+SC_G1080St10Al10.ComponentByMass  P 0.00005  //P
+SC_G1080St10Al10.ComponentByMass  S 0.00003  //S
+SC_G1080St10Al10.ComponentByMass  Si 0.22768  //Si
+SC_G1080St10Al10.ComponentByMass  Cu 0.00160  //Cu
+SC_G1080St10Al10.ComponentByMass  O  0.25826  //O
+SC_G1080St10Al10.ComponentByMass  Zn 0.00560  //Zn
+SC_G1080St10Al10.ComponentByMass  H  0.02440  //H
+SC_G1080St10Al10.ComponentByMass  Mg 0.00250  //Mg
+SC_G1080St10Al10.ComponentByMass  Ti 0.00001  //Ti
+
+Material SC_Hydrazine     
+SC_Hydrazine.Density	   0.880
+SC_Hydrazine.ComponentByAtoms N 2  //N
+SC_Hydrazine.ComponentByAtoms H 4  //H
+
+//Generic electronics composite
+Material SC_Elect2
+SC_Elect2.Density            3.0
+SC_Elect2.ComponentByMass    O  0.10   // O
+SC_Elect2.ComponentByMass    Al  0.50   // Al
+SC_Elect2.ComponentByMass    Si  0.10   // Si
+SC_Elect2.ComponentByMass    Fe  0.05    // Fe
+SC_Elect2.ComponentByMass    Cu  0.15   // Cu
+SC_Elect2.ComponentByMass    Sn  0.05    // Sn
+SC_Elect2.ComponentByMass    Pb  0.05    // Pb
+
+//Generic electronics composite
+Material SC_Elect3
+SC_Elect3.Density            4.0
+SC_Elect3.ComponentByMass    O  0.10   // O
+SC_Elect3.ComponentByMass    Al  0.50   // Al
+SC_Elect3.ComponentByMass    Si  0.10   // Si
+SC_Elect3.ComponentByMass    Fe  0.05    // Fe
+SC_Elect3.ComponentByMass    Cu  0.15   // Cu
+SC_Elect3.ComponentByMass    Sn  0.05    // Sn
+SC_Elect3.ComponentByMass    Pb  0.05    // Pb
+
+//Generic electronics composite
+Material SC_Elect1
+SC_Elect1.Density            1.0
+SC_Elect1.ComponentByMass    O  0.10   // O
+SC_Elect1.ComponentByMass    Al  0.50   // Al
+SC_Elect1.ComponentByMass    Si  0.10   // Si
+SC_Elect1.ComponentByMass    Fe  0.05    // Fe
+SC_Elect1.ComponentByMass    Cu  0.15   // Cu
+SC_Elect1.ComponentByMass    Sn  0.05    // Sn
+SC_Elect1.ComponentByMass    Pb  0.05    // Pb
+
+//NiH2 for battery (housing neglected) according to www seems to be Ni(OH)2
+Material NiH2
+NiH2.Density 8.8
+NiH2.ComponentByAtoms Ni  1 // Ni
+NiH2.ComponentByAtoms O  2 // 0
+NiH2.ComponentByAtoms  H  2 // H
+
+//nickel
+Material nickel
+nickel.Density 8.8
+nickel.ComponentByAtoms Ni  1 // Ni
+
