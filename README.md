@@ -1,2 +1,1 @@
-# massmodel-cosi-smex-detailed
-The detailed COSI SMEX mass model
+The mass model of COSI for data challenge 3
