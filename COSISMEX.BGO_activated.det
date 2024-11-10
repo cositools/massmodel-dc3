@@ -1,0 +1,219 @@
+#------------------------------------------------------------
+# Detector information:
+
+
+Voxel3D     BGO_Coinc_bottom1
+BGO_Coinc_bottom1.DetectorVolume     BGObotCrystal1_ACTIVE
+BGO_Coinc_bottom1.SensitiveVolume    BGObotCrystal1_ACTIVE
+BGO_Coinc_bottom1.VoxelNumber        17 8 3
+BGO_Coinc_bottom1.Offset             0 0 0
+BGO_Coinc_bottom1.TriggerThreshold   80.0
+BGO_Coinc_bottom1.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom1.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom1.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom2
+BGO_Coinc_bottom2.DetectorVolume     BGObotCrystal2_ACTIVE
+BGO_Coinc_bottom2.SensitiveVolume    BGObotCrystal2_ACTIVE
+BGO_Coinc_bottom2.VoxelNumber        17 6 3
+BGO_Coinc_bottom2.Offset             0 0 0
+BGO_Coinc_bottom2.TriggerThreshold   80.0
+BGO_Coinc_bottom2.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom2.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom2.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom3
+BGO_Coinc_bottom3.DetectorVolume     BGObotCrystal3_ACTIVE
+BGO_Coinc_bottom3.SensitiveVolume    BGObotCrystal3_ACTIVE
+BGO_Coinc_bottom3.VoxelNumber        17 6 3
+BGO_Coinc_bottom3.Offset             0 0 0
+BGO_Coinc_bottom3.TriggerThreshold   80.0
+BGO_Coinc_bottom3.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom3.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom3.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom4
+BGO_Coinc_bottom4.DetectorVolume     BGObotCrystal4_ACTIVE
+BGO_Coinc_bottom4.SensitiveVolume    BGObotCrystal4_ACTIVE
+BGO_Coinc_bottom4.VoxelNumber        20 6 3
+BGO_Coinc_bottom4.Offset             0 0 0
+BGO_Coinc_bottom4.TriggerThreshold   80.0
+BGO_Coinc_bottom4.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom4.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom4.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom5
+BGO_Coinc_bottom5.DetectorVolume     BGObotCrystal5_ACTIVE
+BGO_Coinc_bottom5.SensitiveVolume    BGObotCrystal5_ACTIVE
+BGO_Coinc_bottom5.VoxelNumber        20 6 3
+BGO_Coinc_bottom5.Offset             0 0 0
+BGO_Coinc_bottom5.TriggerThreshold   80.0
+BGO_Coinc_bottom5.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom5.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom5.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom6
+BGO_Coinc_bottom6.DetectorVolume     BGObotCrystal6_ACTIVE
+BGO_Coinc_bottom6.SensitiveVolume    BGObotCrystal6_ACTIVE
+BGO_Coinc_bottom6.VoxelNumber        20 8 3
+BGO_Coinc_bottom6.Offset             0 0 0
+BGO_Coinc_bottom6.TriggerThreshold   80.0
+BGO_Coinc_bottom6.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom6.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom6.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom7
+BGO_Coinc_bottom7.DetectorVolume     BGObotCrystal7_ACTIVE
+BGO_Coinc_bottom7.SensitiveVolume    BGObotCrystal7_ACTIVE
+BGO_Coinc_bottom7.VoxelNumber        17 6 3
+BGO_Coinc_bottom7.Offset             0 0 0
+BGO_Coinc_bottom7.TriggerThreshold   80.0
+BGO_Coinc_bottom7.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom7.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom7.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom8
+BGO_Coinc_bottom8.DetectorVolume     BGObotCrystal8_ACTIVE
+BGO_Coinc_bottom8.SensitiveVolume    BGObotCrystal8_ACTIVE
+BGO_Coinc_bottom8.VoxelNumber        17 6 3
+BGO_Coinc_bottom8.Offset             0 0 0
+BGO_Coinc_bottom8.TriggerThreshold   80.0
+BGO_Coinc_bottom8.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom8.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom8.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom9
+BGO_Coinc_bottom9.DetectorVolume     BGObotCrystal9_ACTIVE
+BGO_Coinc_bottom9.SensitiveVolume    BGObotCrystal9_ACTIVE
+BGO_Coinc_bottom9.VoxelNumber        20 6 3
+BGO_Coinc_bottom9.Offset             0 0 0
+BGO_Coinc_bottom9.TriggerThreshold   80.0
+BGO_Coinc_bottom9.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom9.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom9.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_bottom10
+BGO_Coinc_bottom10.DetectorVolume     BGObotCrystal10_ACTIVE
+BGO_Coinc_bottom10.SensitiveVolume    BGObotCrystal10_ACTIVE
+BGO_Coinc_bottom10.VoxelNumber        20 6 3
+BGO_Coinc_bottom10.Offset             0 0 0
+BGO_Coinc_bottom10.TriggerThreshold   80.0
+BGO_Coinc_bottom10.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_bottom10.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_bottom10.NoiseThresholdEqualsTriggerThreshold true
+
+
+
+Voxel3D     BGO_Coinc_sideX
+BGO_Coinc_sideX.DetectorVolume     BGOsideX_ACTIVE
+BGO_Coinc_sideX.SensitiveVolume    BGOsideX_ACTIVE
+BGO_Coinc_sideX.VoxelNumber        2 12 19
+BGO_Coinc_sideX.Offset             0 0 0
+BGO_Coinc_sideX.TriggerThreshold   80.0
+BGO_Coinc_sideX.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_sideX.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_sideX.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_sideX_neg
+BGO_Coinc_sideX_neg.DetectorVolume     BGOsideXneg_ACTIVE
+BGO_Coinc_sideX_neg.SensitiveVolume    BGOsideXneg_ACTIVE
+BGO_Coinc_sideX_neg.VoxelNumber        2 12 19
+BGO_Coinc_sideX_neg.Offset             0 0 0
+BGO_Coinc_sideX_neg.TriggerThreshold   80.0
+BGO_Coinc_sideX_neg.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_sideX_neg.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_sideX_neg.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_sideY
+BGO_Coinc_sideY.DetectorVolume     BGOsideY_ACTIVE
+BGO_Coinc_sideY.SensitiveVolume    BGOsideY_ACTIVE
+BGO_Coinc_sideY.VoxelNumber        11 2 19
+BGO_Coinc_sideY.Offset             0 0 0
+BGO_Coinc_sideY.TriggerThreshold   80.0
+BGO_Coinc_sideY.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_sideY.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_sideY.NoiseThresholdEqualsTriggerThreshold true
+
+Voxel3D     BGO_Coinc_sideY_neg
+BGO_Coinc_sideY_neg.DetectorVolume     BGOsideYneg_ACTIVE
+BGO_Coinc_sideY_neg.SensitiveVolume    BGOsideYneg_ACTIVE
+BGO_Coinc_sideY_neg.VoxelNumber        11 2 19
+BGO_Coinc_sideY_neg.Offset             0 0 0
+BGO_Coinc_sideY_neg.TriggerThreshold   80.0
+BGO_Coinc_sideY_neg.EnergyResolution   Gauss    0.0    0.0   10.0
+BGO_Coinc_sideY_neg.EnergyResolution   Gauss  100.0  100.0   10.0
+BGO_Coinc_sideY_neg.NoiseThresholdEqualsTriggerThreshold true
+
+Trigger BgoVeto_bottom1
+BgoVeto_bottom1.Veto false
+BgoVeto_bottom1.TriggerByDetector true
+BgoVeto_bottom1.Detector BGO_Coinc_bottom1 1
+
+Trigger BgoVeto_bottom2
+BgoVeto_bottom2.Veto false
+BgoVeto_bottom2.TriggerByDetector true
+BgoVeto_bottom2.Detector BGO_Coinc_bottom2 1
+
+Trigger BgoVeto_bottom3
+BgoVeto_bottom3.Veto false
+BgoVeto_bottom3.TriggerByDetector true
+BgoVeto_bottom3.Detector BGO_Coinc_bottom3 1
+
+Trigger BgoVeto_bottom4
+BgoVeto_bottom4.Veto false
+BgoVeto_bottom4.TriggerByDetector true
+BgoVeto_bottom4.Detector BGO_Coinc_bottom4 1
+
+Trigger BgoVeto_bottom5
+BgoVeto_bottom5.Veto false
+BgoVeto_bottom5.TriggerByDetector true
+BgoVeto_bottom5.Detector BGO_Coinc_bottom5 1
+
+Trigger BgoVeto_bottom6
+BgoVeto_bottom6.Veto false
+BgoVeto_bottom6.TriggerByDetector true
+BgoVeto_bottom6.Detector BGO_Coinc_bottom6 1
+
+Trigger BgoVeto_bottom7
+BgoVeto_bottom7.Veto false
+BgoVeto_bottom7.TriggerByDetector true
+BgoVeto_bottom7.Detector BGO_Coinc_bottom7 1
+
+Trigger BgoVeto_bottom8
+BgoVeto_bottom8.Veto false
+BgoVeto_bottom8.TriggerByDetector true
+BgoVeto_bottom8.Detector BGO_Coinc_bottom8 1
+
+Trigger BgoVeto_bottom9
+BgoVeto_bottom9.Veto false
+BgoVeto_bottom9.TriggerByDetector true
+BgoVeto_bottom9.Detector BGO_Coinc_bottom9 1
+
+Trigger BgoVeto_bottom10
+BgoVeto_bottom10.Veto false
+BgoVeto_bottom10.TriggerByDetector true
+BgoVeto_bottom10.Detector BGO_Coinc_bottom10 1
+
+
+
+Trigger BgoVeto_sideX
+BgoVeto_sideX.Veto false
+BgoVeto_sideX.TriggerByDetector true
+BgoVeto_sideX.Detector BGO_Coinc_sideX 1
+
+Trigger BgoVeto_sideY
+BgoVeto_sideY.Veto false
+BgoVeto_sideY.TriggerByDetector true
+BgoVeto_sideY.Detector BGO_Coinc_sideY 1
+
+Trigger BgoVeto_sideX_neg
+BgoVeto_sideX_neg.Veto false
+BgoVeto_sideX_neg.TriggerByDetector true
+BgoVeto_sideX_neg.Detector BGO_Coinc_sideX_neg 1
+
+Trigger BgoVeto_sideY_neg
+BgoVeto_sideY_neg.Veto false
+BgoVeto_sideY_neg.TriggerByDetector true
+BgoVeto_sideY_neg.Detector BGO_Coinc_sideY_neg 1
+
+                                                    
