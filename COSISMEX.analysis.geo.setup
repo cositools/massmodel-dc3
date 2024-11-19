@@ -45,7 +45,9 @@ PIPbody.Position 0. 0. 0.0
 
 ShieldedTelescope.Mother WorldVolume
 ShieldedTelescope.Rotation 0.0 0.0 90.0
-ShieldedTelescope.Position 0.0 {PIP_TRD2_height/2-21.7} {ShieldedHeight+BGOBotZ+.71+PIP_depth/2+PIP_aluminum_thickness}
+#ShieldedTelescope.Position 0.0 {PIP_TRD2_height/2-21.7} {ShieldedHeight+BGOBotZ+.71+PIP_depth/2+PIP_aluminum_thickness}
+#Updated 2/8/24
+ShieldedTelescope.Position 0.0 {PIP_TRD2_height/2-21.7} {ShieldedHeight+BGOBotZ+.71+PIP_depth/2+PIP_aluminum_thickness+.014}
 
 
 # Start modeling the DPM 
