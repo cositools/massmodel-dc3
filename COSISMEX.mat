@@ -4,7 +4,6 @@
 Name materials
 Version 0.1
 
-AbsorptionFileDirectory ./absorptions
 
 ## **************************************************************************
 ## Stuff from the original default material file I had to take back ...:

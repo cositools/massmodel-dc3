@@ -1,5 +1,8 @@
 # This file contains all GLOBAL dimensions important beyond individual sub-directories
 
+
+CrossSectionFilesDirectory crosssections
+
 #######################################################
 # Cryostat
 
