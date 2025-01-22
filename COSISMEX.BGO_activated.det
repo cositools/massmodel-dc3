@@ -114,6 +114,15 @@ BGO_Coinc_sideX.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideX.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideX.NoiseThresholdEqualsTriggerThreshold true
 
+BGO_Coinc_sideX.Named BGO_Coinc_sideX_1
+BGO_Coinc_sideX_1.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE1
+
+BGO_Coinc_sideX.Named BGO_Coinc_sideX_2
+BGO_Coinc_sideX_2.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE2
+
+BGO_Coinc_sideX.Named BGO_Coinc_sideX_3
+BGO_Coinc_sideX_3.Assign WorldVolume.ShieldedTelescope.BGOsideX_ACTIVE3
+
 Voxel3D     BGO_Coinc_sideX_neg
 BGO_Coinc_sideX_neg.DetectorVolume     BGOsideXneg_ACTIVE
 BGO_Coinc_sideX_neg.SensitiveVolume    BGOsideXneg_ACTIVE
@@ -123,6 +132,15 @@ BGO_Coinc_sideX_neg.TriggerThreshold   80.0
 BGO_Coinc_sideX_neg.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideX_neg.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideX_neg.NoiseThresholdEqualsTriggerThreshold true
+
+BGO_Coinc_sideX_neg.Named BGO_Coinc_sideX_neg_1
+BGO_Coinc_sideX_neg_1.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE1
+
+BGO_Coinc_sideX_neg.Named BGO_Coinc_sideX_neg_2
+BGO_Coinc_sideX_neg_2.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE2
+
+BGO_Coinc_sideX_neg.Named BGO_Coinc_sideX_neg_3
+BGO_Coinc_sideX_neg_3.Assign WorldVolume.ShieldedTelescope.BGOsideXneg_ACTIVE3
 
 Voxel3D     BGO_Coinc_sideY
 BGO_Coinc_sideY.DetectorVolume     BGOsideY_ACTIVE
@@ -134,6 +152,15 @@ BGO_Coinc_sideY.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideY.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideY.NoiseThresholdEqualsTriggerThreshold true
 
+BGO_Coinc_sideY.Named BGO_Coinc_sideY_1
+BGO_Coinc_sideY_1.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE1
+
+BGO_Coinc_sideY.Named BGO_Coinc_sideY_2
+BGO_Coinc_sideY_2.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE2
+
+BGO_Coinc_sideY.Named BGO_Coinc_sideY_3
+BGO_Coinc_sideY_3.Assign WorldVolume.ShieldedTelescope.BGOsideY_ACTIVE3
+
 Voxel3D     BGO_Coinc_sideY_neg
 BGO_Coinc_sideY_neg.DetectorVolume     BGOsideYneg_ACTIVE
 BGO_Coinc_sideY_neg.SensitiveVolume    BGOsideYneg_ACTIVE
@@ -143,6 +170,15 @@ BGO_Coinc_sideY_neg.TriggerThreshold   80.0
 BGO_Coinc_sideY_neg.EnergyResolution   Gauss    0.0    0.0   10.0
 BGO_Coinc_sideY_neg.EnergyResolution   Gauss  100.0  100.0   10.0
 BGO_Coinc_sideY_neg.NoiseThresholdEqualsTriggerThreshold true
+
+BGO_Coinc_sideY_neg.Named BGO_Coinc_sideY_neg_1
+BGO_Coinc_sideY_neg_1.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE1
+
+BGO_Coinc_sideY_neg.Named BGO_Coinc_sideY_neg_2
+BGO_Coinc_sideY_neg_2.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE2
+
+BGO_Coinc_sideY_neg.Named BGO_Coinc_sideY_neg_3
+BGO_Coinc_sideY_neg_3.Assign WorldVolume.ShieldedTelescope.BGOsidenegY_ACTIVE3
 
 Trigger BgoVeto_bottom1
 BgoVeto_bottom1.Veto false
